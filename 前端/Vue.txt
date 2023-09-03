@@ -1,0 +1,13 @@
+1. Vue组件的生命周期涉及到的钩子函数和执行顺序是：beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed，activated和deactivated是组件设置了keep-alive时，进入组件和离开组件时分别触发的两个函数
+
+2. Vue组件的生命周期可以分成三个大阶段：挂载、更新、卸载
+
+3. 挂载阶段以及首次进入页面中涉及到的钩子函数有：beforeCreate、created、beforeMount、mounted
+
+4. 关于keep-alive
+max属性控制最多可以缓存多少组件实例。一旦这个数字达到了，在新实例被创建之前，已缓存组件中最久没有被访问的实例会被销毁掉。
+keep-alive自身不会渲染为一个 DOM 元素，也不会出现在组件的父组件链中
+当组件在keep-alive内被切换，它的activated和deactivated这两个生命周期钩子函数将会被对应执行
+keep-alive可以通过include属性，匹配要进行缓存的组件
+
+5.

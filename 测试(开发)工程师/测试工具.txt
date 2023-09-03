@@ -1,0 +1,39 @@
+1. 单元测试（白盒测试）工具 合集
+	[Rational] PureCoverage
+	[Rational] Purify
+	[Rational] Quantify
+	[Parasoft] jtest
+	[Parasoft] C++ Test 
+	[Parasoft] .Test
+	[Parasoft] Insure++
+	[Parasoft] CodeWizard
+	[DevPartner] Studio Professional
+
+2. Junit
+	@Test注解标注的测试方法只能是public void的，且不能有任何输入参数
+	@beforeClass—位于数据准备前期或者其他前期准备（测试类调用前） 
+		用于提取代码中的共用部分减少冗余，只能声明注解一次
+		必须在public static void,方法名随意且只运行一次。
+	Junit的底层实现上，是用System.exit退出用例执行
+	白盒测试工具：针对代码测试
+
+3， JMeter
+	基于JAVA的压力测试工具，Badboy用来进行脚本的录制
+	功能测试：通过自动录制、检测和回放用户的应用操作。将输出记录同预先给定的记录比较。
+
+4. LoadRunner
+	负载压力测试：预测系统性能。
+	通过以模拟上千万用户实施并发负载及实时性能监测的方式来确认和查找问题， 可适用于各种体系架构的自动负载测试，能预测系统行为并评估系统性能。 
+	其测试组件有
+		1.VuGen Load Generator（虚拟用户生成器）
+			用于捕获最终用户业务流程和创建自动性能测试脚本 （也称为虚拟用户脚本）。 
+		2.Controller （控制器）
+			用于组织、驱动、管理和监控负载测试。
+		3.Analysis （分析器）
+			有助于您查看、分析和比较性能结果。
+
+5. TestLink
+	用例管理工具，对测试需求、计划、用例、实施进行管理
+
+6. SVN
+	测试辅助工具。本身不执行，可以生成测试数据，为测试提供数据准备
